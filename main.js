@@ -1,35 +1,8 @@
-const add = function(a, b) {
-    return a + b;
-  };
-  
-  const subtract = function(a, b) {
-    return a - b;
-  };
-  
-  const multiply = function(array) {
-      return array.length
-        ? array.reduce((accumulator, nextItem) => accumulator * nextItem)
-        : 0;
-  };
+const calculator = (a, b, operation) => {
+  if (operation === '+') return a + b;
+  if (operation === '-') return a - b;
+  if (operation === '*') return a * b;
+  if (operation === '/') return b === 0 ? "Can't divide by 0!" : a / b;
+}
 
-  const divide = function(a,b){
-    return a / b;
-  }
-
-  
-  const sum = function(array) {
-    return array.reduce((total, current) => total + current, 0);
-  };
-
-  const power = function(a, b) {
-    return Math.pow(a, b);
-  };
-  
-  const factorial = function(n) {
-    if (n === 0) return 1;
-    let product = 1;
-    for (let i = n; i > 0; i--) {
-      product *= i;
-    }
-    return product;
-  };
+   
