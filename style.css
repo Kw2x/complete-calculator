@@ -3,15 +3,15 @@ body{
  align-items: center;
  justify-content: center;
  border: 10px solid orange;
- height: 350px;
+ height: 225px;
 }
 
 #calculator{
     display: flex;
     flex-direction: column;
     border: 10px groove red;
-    height: 130px;
-    width: 80px;
+    height: 110px;
+    width: 88px;
 }
 
 #display{
@@ -24,11 +24,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 #operators{
     display: flex;
+    justify-content: space-around;
+    width: 90px;
 }
 
  

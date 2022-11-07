@@ -1,8 +1,5 @@
-const opereate = (a, b, operation) => {
-  if (operation === '+') return a + b;
-  if (operation === '-') return a - b;
-  if (operation === '*') return a * b;
-  if (operation === '/') return b === 0 ? "Can't divide by 0!" : a / b;
-}
-
-  
+const clear = document.getElementsByClassName("clr-btn");
+clear.addEventListener("click", () => {
+  const display = document.getElementsById("display").innerHTML = "";
+  return display;
+})
