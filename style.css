@@ -1,5 +1,27 @@
-body{display: flex;
+body{
+ display: flex;
  align-items: center;
  justify-content: center;
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid red;
+}
+
+#display{
+    display: flex;
+}
+
+#numbers{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+#operators{
+    display: flex;
 }
 
