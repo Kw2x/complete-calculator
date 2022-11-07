@@ -2,26 +2,33 @@ body{
  display: flex;
  align-items: center;
  justify-content: center;
+ border: 10px solid orange;
+ height: 350px;
 }
 
 #calculator{
     display: flex;
     flex-direction: column;
-    border: 10px solid red;
+    border: 10px groove red;
+    height: 130px;
+    width: 80px;
 }
 
 #display{
     display: flex;
+    border: 2px solid blue;
+
 }
 
 #numbers{
     display: flex;
-    flex-wrap: wrap;
-    
-
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 #operators{
     display: flex;
 }
 
+ 
