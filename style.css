@@ -6,31 +6,3 @@ body{
  height: 225px;
 }
 
-#calculator{
-    display: flex;
-    flex-direction: column;
-    border: 10px groove red;
-    height: 110px;
-    width: 88px;
-}
-
-#display{
-    display: flex;
-    border: 2px solid blue;
-
-}
-
-#numbers{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#operators{
-    display: flex;
-    justify-content: space-around;
-    width: 90px;
-}
-
- 
