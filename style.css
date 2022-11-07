@@ -6,3 +6,24 @@ body{
  height: 225px;
 }
 
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px groove purple;
+    width: 90px;
+}
+
+.display{
+    display: flex;
+    width: 82px;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.clear:hover{
+    background-color: red;
+}
