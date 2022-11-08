@@ -13,16 +13,26 @@ body{
     align-items: center;
     border: 10px groove purple;
     width: 90px;
+    height: 135px;
+    border-radius: 10px;
+
 }
 
 .display{
     display: flex;
     width: 82px;
+    margin-bottom: 2px;
+}
+
+.buttons{
+    align-items: center;
+    justify-content: center;;
 }
 
 button:hover{
     background-color: blue;
 }
+
 
 .clear:hover{
     background-color: red;
