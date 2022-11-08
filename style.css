@@ -2,7 +2,7 @@ body{
  display: flex;
  align-items: center;
  justify-content: center;
- border: 10px solid orange;
+ border: 10px solid grey;
  height: 225px;
 }
 
@@ -27,3 +27,4 @@ button:hover{
 .clear:hover{
     background-color: red;
 }
+
